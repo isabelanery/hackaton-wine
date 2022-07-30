@@ -2,27 +2,36 @@ import React from 'react';
 import PlanStepCard from './PlanStepCard';
 import '../css/PlansExplanation.css';
 
+import step1 from '../images/escolhaoplano.svg';
+import step2 from '../images/curadoria.svg';
+import step3 from '../images/recebaemcasa.svg';
+import step4 from '../images/celebrate.svg';
+
 function PlansExplanation() {
   const plans = [
     {
       step: '1',
       title: 'Você escolhe!',
-      content: '',
+      img: step1,
+      content: 'São 6 Clubes diferentes, e você escolhe a WineBox que mais combina com você.',
     },
     {
       step: '2',
       title: 'Curadoria',
-      content: '',
+      img: step2,
+      content: 'Nossos Winehunters recebem amostras de exemplares e fazem diversas análises para seleção dos melhores vinhos.',
     },
     {
       step: '3',
       title: 'Comodidade',
-      content: '',
+      img: step3,
+      content: 'Todo mês, você recebe a sua WineBox no local que escolher.',
     },
     {
       step: '4',
       title: 'Aproveite!',
-      content: '',
+      img: step4,
+      content: 'Viva experiências incríveis e brinde à vida com os melhores vinhos!',
     },
   ];
 

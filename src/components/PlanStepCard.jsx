@@ -2,14 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function PlanStepCard(props) {
-  const { plan: { step, title, content } } = props;
+  const {
+    plan: {
+      step, title, content, img,
+    },
+  } = props;
 
   return (
     <div>
       <h3>
         { step }
       </h3>
-      Icon
+      <img src={img} alt="" className="plan-step-img" />
       <h3>
         { title }
       </h3>

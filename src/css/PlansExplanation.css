@@ -1,3 +1,7 @@
 .plan-steps {
   display: flex;
 }
+
+.plan-step-img {
+  width: 7rem;
+}
