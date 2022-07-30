@@ -1,0 +1,16 @@
+.wine-benefits-wrapper {
+  display: flex;
+
+}
+
+.wine-benefit-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.wine-benefit-icon {
+  width: 7rem;
+}
