@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import Directions from '../components/Directions';
 import PlansExplanation from '../components/PlansExplanation';
 import WineBenefits from '../components/WineBenefits';
 import WineBox from '../components/WineBox';
@@ -13,6 +14,7 @@ function LandingPage() {
       <WineBox />
       <WineBenefits />
       <WineOptions />
+      <Directions />
     </div>
   );
 }
