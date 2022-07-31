@@ -1,5 +1,5 @@
 import React from 'react';
-import PlanStepCard from './PlanStepCard';
+import PlanStepCard from './cards/PlanStepCard';
 import '../css/PlansExplanation.css';
 
 import step1 from '../images/escolhaoplano.svg';

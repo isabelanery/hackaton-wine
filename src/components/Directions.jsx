@@ -1,5 +1,5 @@
 import React from 'react';
-import DirectionCard from './DirectionCard';
+import DirectionCard from './cards/DirectionCard';
 import '../css/Directions.css';
 
 function Directions() {
