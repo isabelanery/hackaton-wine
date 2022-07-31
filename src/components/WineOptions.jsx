@@ -23,15 +23,18 @@ function WineOptions() {
 
   return (
     <div className="wine-options-container">
-      <div className="wine-options-button">
-        <button type="button" name="test" onClick={handleClick}>
-          Sou iniciante
+      {/* reescrever e nome dos botões, não sei se tá mt legal \/ */}
+      <h3>Há quanto tempo / o quanto você aprecia vinhos?</h3>
+
+      <div className="wine-options-buttons">
+        <button className="color-magenta" type="button" name="test" onClick={handleClick}>
+          Estou iniciando agora...
         </button>
-        <button type="button" name="plans" onClick={handleClick}>
-          Quero ver os planos
+        <button className="color-turquoise" type="button" name="plans" onClick={handleClick}>
+          Gosto! Quero ver os planos
         </button>
-        <button type="button" name="wineYou" onClick={handleClick}>
-          Quero escolher meus vinhos
+        <button className="color-orange" type="button" name="wineYou" onClick={handleClick}>
+          Amo! Quero escolher meus vinhos
         </button>
       </div>
       { optionSelected !== '' && componentOption[optionSelected] }

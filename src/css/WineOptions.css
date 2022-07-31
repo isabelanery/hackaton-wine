@@ -1,3 +1,39 @@
-.wine-options-button {
+.wine-options-container {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+}
+
+.wine-options-container h3 {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  margin: 0 2rem 2rem;
+}
+
+.wine-options-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.color-magenta {
+  background-color: var(--magenta);
+}
+
+.color-orange {
+  background-color: var(--orange);
+}
+
+.color-turquoise {
+  background-color: var(--turquoise);
+}
+
+.wine-options-buttons button {
+  /* background-color: var(--turquoise); */
+  border: 0.1rem solid var(--cream);
+  border-radius: 0.5rem;
+  color: var(--cream);
+  padding: 0.8rem;
+  transition: 0.7s;
 }
