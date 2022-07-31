@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Header.css';
+import { FaShoppingBag } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -8,7 +9,9 @@ function Header() {
       <nav className="nav-container">
         <ul>
           <li className="nav-li">
-            <Link to="/">Logo</Link>
+            <Link to="/">
+              <img src="https://img.wine.com.br/logo/wine/black/wine.svg" alt="logo da Wine" />
+            </Link>
           </li>
 
           <li className="nav-li">
@@ -36,7 +39,9 @@ function Header() {
           </li>
 
           <li className="nav-li">
-            <Link to="/">Sacola</Link>
+            <Link to="/">
+              <FaShoppingBag />
+            </Link>
           </li>
         </ul>
       </nav>

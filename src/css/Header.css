@@ -31,3 +31,7 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.nav-li img {
+  width: 5rem;
+}
