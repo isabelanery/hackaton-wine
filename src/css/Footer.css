@@ -1,0 +1,41 @@
+footer {
+  align-items: center;
+  background: var(--cream);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.comercial-info p {
+  font-size: 0.8rem;
+  color: var(--gray-dark);
+  
+}
+
+.warning {
+  padding: 0.25rem;
+  background-color: var(--gray);
+  color: var(--gray-dark);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.social-media {
+  color: var(--magenta-dark);
+}
+
+.social-media h3 {
+  font-size: 1.75;
+  margin-bottom: 0.75rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around
+}
+
+.social-icons * {
+  text-decoration: none;
+  font-size: 1.75rem;
+}

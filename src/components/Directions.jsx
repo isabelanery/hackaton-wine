@@ -34,7 +34,7 @@ function Directions() {
     <div className="directions-container">
       <section className="directions-wrapper">
         {
-          directions.map((item) => <DirectionCard data={item} />)
+          directions.map((item) => <DirectionCard data={item} key={item.title} />)
         }
       </section>
     </div>
