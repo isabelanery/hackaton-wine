@@ -1,6 +1,6 @@
 .wine-box-container {
   padding: 3rem 3rem;
-  color: var(--cream);
+  background-color: var(--cream);
 }
 
 .wine-box-container h2 {
