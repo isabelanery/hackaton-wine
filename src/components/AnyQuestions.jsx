@@ -9,7 +9,11 @@ function AnyQuestions() {
         <img src={questionImage} alt="Pessoa em dúvida" className="any-questions-img" />
         <div className="question-content">
           <h2>Tem alguma dúvida?</h2>
-          <h3>Veja as perguntas mais frenquentes, ou entre em contato conosco</h3>
+          <h3>Veja as perguntas mais frenquentes, ou entre em contato conosco </h3>
+          <p>
+            Horário de atendimento:
+            De segunda a sexta-feira de 09h as 18h. Exceto feriados.
+          </p>
           <button type="button">Clicando Aqui!</button>
         </div>
       </section>
