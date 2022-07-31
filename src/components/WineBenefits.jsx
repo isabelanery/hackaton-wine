@@ -1,5 +1,5 @@
 import React from 'react';
-import WineBenefitCard from './WineBenefitCard';
+import WineBenefitCard from './cards/WineBenefitCard';
 import '../css/WineBenefits.css';
 
 function WineBenefits() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import DirectionCard from './DirectionCard';
+import DirectionCard from './cards/DirectionCard';
 import '../css/Directions.css';
 
 function Directions() {
@@ -8,25 +8,25 @@ function Directions() {
       icon: 'https://img.wine.com.br/component/home-clube/products-section-icon.svg',
       title: 'Descontos',
       description: 'Conheça os nossos descontos em toda loja para sócios Wine.',
-      color: '1',
+      color: 'magenta',
     },
     {
       icon: 'https://img.wine.com.br/component/home-clube/worldwide-section-icon.svg',
       title: 'Vinhos pelo mundo',
       description: 'Experimente os vinhos mais incríveis ao redor do mundo!',
-      color: '2',
+      color: 'orange',
     },
     {
       icon: 'https://img.wine.com.br/component/home-clube/benefits-icon.svg',
       title: 'Harmonização',
       description: 'Descubra as melhores harmonizações para seu prato favorito.',
-      color: '3',
+      color: 'magenta-darker',
     },
     {
       icon: 'https://img.wine.com.br/component/home-clube/producers-section-icon.svg',
-      title: 'Conheça o aplicativo',
-      description: 'Baixe nosso aplicativo para comprar vinhos com um clique.',
-      color: '4',
+      title: 'Conheça nossas lojas',
+      description: 'Baixe nosso aplicativo para comprar vinhos da onde você estiver.',
+      color: 'turquoise',
     },
   ];
 
@@ -34,7 +34,7 @@ function Directions() {
     <div className="directions-container">
       <section className="directions-wrapper">
         {
-          directions.map((item) => <DirectionCard data={item} />)
+          directions.map((item) => <DirectionCard data={item} key={item.title} />)
         }
       </section>
     </div>

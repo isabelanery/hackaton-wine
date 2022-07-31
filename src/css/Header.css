@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  background-color: var(--cream);
+  color: var(--magenta);
+  display: flex;
+  font-weight: 100;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-li, .nav-li * {
+  color: var(--magenta);
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}

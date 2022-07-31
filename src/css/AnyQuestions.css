@@ -1,7 +1,48 @@
+.any-questions-container {
+  padding: 3rem;
+}
+
 .any-questions-wrapper {
+  align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .any-questions-img {
+  margin-right: 3rem;
   width: 23rem;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.question-content button {
+  border: 0.1rem solid var(--cream);
+  border-radius: 0.5rem;
+  color: var(--cream);
+  padding: 0.8rem;
+  transition: 0.7s;
+  width: 50%;
+}
+
+
+.question-content h2 {
+  color: var(--magenta);
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.question-content h3 {
+  color: var(--orange);
+  /* font-size: 1.25rem */
+  padding-bottom: 0.5rem;
+}
+
+.question-content p {
+  color: var(--text-dark);
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }

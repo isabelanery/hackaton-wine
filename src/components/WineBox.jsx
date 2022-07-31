@@ -1,5 +1,5 @@
 import React from 'react';
-import WineBoxGift from './WineBoxGift';
+import WineBoxGift from './cards/WineBoxGift';
 import '../css/WineBox.css';
 
 function WineBox() {

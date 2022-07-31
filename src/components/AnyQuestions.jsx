@@ -14,7 +14,7 @@ function AnyQuestions() {
             Horário de atendimento:
             De segunda a sexta-feira de 09h as 18h. Exceto feriados.
           </p>
-          <button type="button">Clicando Aqui!</button>
+          <button className="color-magenta" type="button">Clicando Aqui!</button>
         </div>
       </section>
     </div>

@@ -1,26 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../css/PlanStepCard.css';
 
 function PlanStepCard(props) {
   const {
     plan: {
-      step, title, content, img,
+      title, content, img,
     },
   } = props;
 
   return (
-    <div>
-      <h3>
-        { step }
-      </h3>
-      <img src={img} alt="" className="plan-step-img" />
-      <h3>
-        { title }
-      </h3>
+    <div className="card-explanation-container">
 
-      <p>
-        { content }
-      </p>
+      {/* <h3>
+        { step }
+      </h3> */}
+      <img src={img} alt="" className="plan-step-img" />
+
+      <div className="plan-step-description">
+        <h3>
+          { title }
+        </h3>
+
+        <p>
+          { content }
+        </p>
+      </div>
     </div>
   );
 }

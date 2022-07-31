@@ -1,0 +1,25 @@
+.direction-card {
+  align-items: center;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 22%;
+}
+
+.direction-card h3 {
+  color: var(--cream);
+  margin: 1rem 0;
+}
+
+.direction-card h3 {
+  color: var(--cream);
+}
+
+.direction-card img {
+  width: 50%;
+}
+
+.direction-card p {
+  text-align: center;
+}
