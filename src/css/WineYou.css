@@ -1,9 +1,10 @@
-.test-card-container {
+.wine-you-card-container {
   padding: 3rem;
   padding-bottom: 2rem;
+  width: 80%;
 }
 
-.test-card-wrapper {
+.wine-you-card-wrapper {
   align-items: center;
   border-radius: 1rem;
   display: flex;
@@ -11,21 +12,24 @@
   padding: 3rem;
 }
 
-.test-card-content {
+.wine-you-card-content {
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
-.test-card-content p, .test-card-content h3 {
+.wine-you-card-content p, .wine-you-card-content h3 {
   color: var(--cream);
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
-.test-card-wrapper img {
+.wine-you-card-wrapper img {
+  margin-right: 2rem;
   width: 25%;
 }
 
-.test-card-wrapper button {
+.wine-you-card-wrapper button {
   background-color: var(--turquoise);
   border: 0.1rem solid var(--cream);
   border-radius: 0.5rem;

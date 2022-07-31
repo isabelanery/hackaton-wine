@@ -1,15 +1,19 @@
 import React from 'react';
 import curadoria from '../images/curadoria.svg';
-import '../css/DirectionCard.css';
+import '../css/WineTest.css';
 
 function WineTest() {
   return (
-    <div className="direction-card color-magenta">
-      <div>
+    <div className="test-card-container">
+      <div className="test-card-wrapper color-magenta">
         <img src={curadoria} alt="curadoria" />
-        <h3>Começando agora?</h3>
-        <p>Descubra os vinhos ideais para você!</p>
-        <button type="button">Faça o teste!</button>
+
+        <div className="test-card-content">
+          <h3>Começando agora?</h3>
+          <p>Descubra os vinhos ideais para você!</p>
+          <button type="button">Faça o teste!</button>
+
+        </div>
       </div>
     </div>
   );
