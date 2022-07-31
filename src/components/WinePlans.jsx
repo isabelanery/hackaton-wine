@@ -1,16 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import fetchPlans from '../services/planServices';
+import WinePlansCard from './cards/WinePlansCard';
 
 function WinePlans() {
   const [plans, setPlans] = useState([]);
-  useEffect(async () => {
-    const planos = await fetchPlans();
-    setPlans(planos);
+  const [fullPlans, setfullPlans] = useState({});
+  useEffect(() => {
+    const requestPlans = async () => {
+      const planos = await fetchPlans();
+      setPlans(planos.plans);
+      setfullPlans(planos);
+    };
+    requestPlans();
   }, []);
   return (
-    <p>
-      descubra os planos disponíveis
-    </p>
+    <div>
+      <div>{fullPlans.name}</div>
+      <div>{fullPlans.description}</div>
+      {plans.length !== 0 && plans.map((plan) => <WinePlansCard key={plan.id} data={plan} />)}
+    </div>
   );
 }
 
