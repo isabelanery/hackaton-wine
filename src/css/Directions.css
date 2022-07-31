@@ -1,3 +1,8 @@
+.directions-container {
+  padding: 3rem;
+}
+
 .directions-wrapper {
   display: flex;
+  justify-content: space-around;
 }

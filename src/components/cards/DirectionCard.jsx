@@ -1,5 +1,6 @@
 import { shape, string } from 'prop-types';
 import React from 'react';
+import '../../css/DirectionCard.css';
 
 function DirectionCard(props) {
   const {

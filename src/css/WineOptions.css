@@ -21,6 +21,10 @@
   background-color: var(--magenta);
 }
 
+.color-magenta-darker {
+  background-color: var(--magenta-dark);
+}
+
 .color-orange {
   background-color: var(--orange);
 }
