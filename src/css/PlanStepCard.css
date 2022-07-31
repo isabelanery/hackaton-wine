@@ -1,0 +1,22 @@
+.card-explanation-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.plan-step-description {
+  align-items: center;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-step-description h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.plan-step-description p {
+  font-size: 0.8rem;
+}
