@@ -1,10 +1,16 @@
 import React from 'react';
+import escolha from '../images/escolhaoplano.svg';
 
 function WineYou() {
   return (
-    <p>
-      escolha seus próprios vinhos e receba o cashback
-    </p>
+    <div className="direction-card color-orange">
+      <div>
+        <img src={escolha} alt="escolha" />
+        <h3>WINEYOU</h3>
+      </div>
+      <p>Você é livre para escolher seus vinhos. Veja nossas opções de planos personalizados.</p>
+      <button type="button">Saiba Mais</button>
+    </div>
   );
 }
 
