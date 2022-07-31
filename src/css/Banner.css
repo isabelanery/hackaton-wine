@@ -1,0 +1,33 @@
+.banner-container {
+  align-items: flex-end;
+  background: url('https://images.unsplash.com/photo-1558346489-19413928158b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 66vh;
+  left: 0px;
+  margin-top: 5.5rem;
+  padding: 3rem;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+h1 {
+  color: var(--cream);
+  padding: 0.5rem;
+  font-size: 7rem;
+}
+
+h2 {
+  background-color: var(--dark-transparency);
+  color: var(--cream);
+  padding: 1rem;
+}

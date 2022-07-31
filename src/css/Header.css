@@ -1,10 +1,13 @@
 .header {
   align-items: center;
+  background-color: var(--cream);
   color: var(--magenta);
   display: flex;
   font-weight: 100;
   justify-content: space-between;
   padding: 2rem 1rem;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-container {
@@ -27,5 +30,4 @@ ul {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-
 }
