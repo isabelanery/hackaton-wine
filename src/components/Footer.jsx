@@ -7,17 +7,29 @@ function Footer() {
   return (
     <footer>
       <div>
-        <h3>Alguma dúvida? A gente ajuda você!</h3>
+        <h3>Conecte-se com a gente!</h3>
         <BsFacebook />
         <BsInstagram />
         <BsTwitter />
         <BsYoutube />
       </div>
       <div>
-        <p>
-          SE BEBER, NÃO DIRIJA. APRECIE COM MODERAÇÃO.
-          A VENDA DE BEBIDAS ALCOÓLICAS É PROIBIDA PARA MENORES DE 18 ANOS.
-        </p>
+        <div>
+          <p>
+            W2W E-Commerce de Vinhos S.A
+            CNPJ: 09.813.204/0002-05
+          </p>
+          <p>
+            Rua Comendador Alcides Simão Helou, 1565
+            Serra - ES - CEP 29168-090
+          </p>
+        </div>
+        <div>
+          <p>
+            SE BEBER, NÃO DIRIJA. APRECIE COM MODERAÇÃO.
+            A VENDA DE BEBIDAS ALCOÓLICAS É PROIBIDA PARA MENORES DE 18 ANOS.
+          </p>
+        </div>
       </div>
     </footer>
   );

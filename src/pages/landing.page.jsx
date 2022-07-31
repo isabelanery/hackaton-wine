@@ -2,6 +2,7 @@ import React from 'react';
 import AnyQuestions from '../components/AnyQuestions';
 import Banner from '../components/Banner';
 import Directions from '../components/Directions';
+import Footer from '../components/Footer';
 import GetToKnow from '../components/GetToKnow';
 import PlansExplanation from '../components/PlansExplanation';
 import WineBenefits from '../components/WineBenefits';
@@ -19,6 +20,7 @@ function LandingPage() {
       <Directions />
       <AnyQuestions />
       <GetToKnow />
+      <Footer />
     </div>
   );
 }
