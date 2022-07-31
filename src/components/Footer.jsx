@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <h3>Conecte-se com a gente!</h3>
+        <h3>Conecte-se com a gentegit !</h3>
         <BsFacebook />
         <BsInstagram />
         <BsTwitter />
