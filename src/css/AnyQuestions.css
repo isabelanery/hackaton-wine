@@ -20,7 +20,6 @@
 }
 
 .question-content button {
-  background-color: var(--magenta);
   border: 0.1rem solid var(--cream);
   border-radius: 0.5rem;
   color: var(--cream);

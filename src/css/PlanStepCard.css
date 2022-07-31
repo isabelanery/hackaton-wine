@@ -1,8 +1,16 @@
+
 .card-explanation-container {
   align-items: center;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
   width: 100%;
+}
+
+.card-explanation-container:hover {
+  background: linear-gradient(67.88624185404205deg, rgb(255, 188, 213) 6.54977533509342%,rgba(255, 188, 213) 6.54977533509342%,rgb(255, 206, 195) 95.71381879569455%);
+  transition: 0.7s;
 }
 
 .plan-step-description {
@@ -19,4 +27,5 @@
 
 .plan-step-description p {
   font-size: 0.8rem;
+  text-align: center;
 }
