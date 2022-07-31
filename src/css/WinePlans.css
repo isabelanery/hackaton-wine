@@ -1,8 +1,58 @@
+.wine-test-container {
+  padding-top: 2rem;
+  background-color: var(--cream);
+}
+
+.essencials {
+  color: var(--magenta);
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.wine-test-container p {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
 .wine-plans-card {
+  align-items: stretch;
   display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
 }
 
 .card-wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.wine-plan-card-container {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem var(--gray-dark);
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.wine-plan-card-container button {
+  border: 0.1rem solid var(--cream);
+  background-color: var(--magenta);
+  border-radius: 0.5rem;
+  color: var(--cream);
+  padding: 0.8rem;
+  transition: 0.7s;
+}
+
+.wine-plan-card-container h5 {
+  color: var(--magenta);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.tachado {
+  text-decoration-line: line-through;
+}
+
+.bold {
+  font-size: 1.25rem;
 }

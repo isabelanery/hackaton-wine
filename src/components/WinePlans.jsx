@@ -15,9 +15,9 @@ function WinePlans() {
     requestPlans();
   }, []);
   return (
-    <div>
-      <div>{fullPlans.name}</div>
-      <div>{fullPlans.description}</div>
+    <div className="wine-test-container">
+      <h4 className="essencials">{fullPlans.name}</h4>
+      <p>{fullPlans.description}</p>
       <div className="wine-plans-card">
         {plans.length !== 0 && plans.map((plan) => <WinePlansCard key={plan.id} data={plan} />)}
       </div>

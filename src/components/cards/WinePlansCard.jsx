@@ -8,13 +8,25 @@ function WinePlansCard(props) {
   } = data;
 
   return (
-    <div>
+    <div className="wine-plan-card-container">
       <section className="card-wrapper">
-        <div>{name}</div>
-        <div>{price}</div>
-        <div>{priceWithDiscount}</div>
-        <div>{promotion}</div>
-        <div>{gift}</div>
+        <h5>{name}</h5>
+        <p>
+          De:
+          <span className="tachado">
+            {price}
+          </span>
+        </p>
+        <p>
+          Por apenas:
+          <span className="bold">
+            {priceWithDiscount}
+          </span>
+        </p>
+        <p>{promotion}</p>
+        <p>{gift}</p>
+
+        <button type="button">Assine agora!</button>
       </section>
     </div>
   );
