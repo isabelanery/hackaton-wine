@@ -10,10 +10,18 @@ function Footer() {
       <div className="social-media">
         <h3>Conecte-se com a gente!</h3>
         <div className="social-icons">
-          <BsFacebook />
-          <BsInstagram />
-          <BsTwitter />
-          <BsYoutube />
+          <a href="https://www.facebook.com/winevinhos">
+            <BsFacebook />
+          </a>
+          <a href="https://www.instagram.com/winevinhos">
+            <BsInstagram />
+          </a>
+          <a href="https://twitter.com/wine_vinhos">
+            <BsTwitter />
+          </a>
+          <a href="https://www.youtube.com/user/WineVinhos">
+            <BsYoutube />
+          </a>
         </div>
       </div>
 
