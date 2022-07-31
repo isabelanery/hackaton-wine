@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import fetchPlans from '../services/planServices';
 import WinePlansCard from './cards/WinePlansCard';
+import '../css/WinePlans.css';
 
 function WinePlans() {
   const [plans, setPlans] = useState([]);
@@ -17,7 +18,9 @@ function WinePlans() {
     <div>
       <div>{fullPlans.name}</div>
       <div>{fullPlans.description}</div>
-      {plans.length !== 0 && plans.map((plan) => <WinePlansCard key={plan.id} data={plan} />)}
+      <div className="wine-plans-card">
+        {plans.length !== 0 && plans.map((plan) => <WinePlansCard key={plan.id} data={plan} />)}
+      </div>
     </div>
   );
 }

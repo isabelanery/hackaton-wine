@@ -1,0 +1,8 @@
+.wine-plans-card {
+  display: flex;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+}

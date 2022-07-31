@@ -9,12 +9,12 @@ function WinePlansCard(props) {
 
   return (
     <div>
-      <section>
+      <section className="card-wrapper">
         <div>{name}</div>
         <div>{price}</div>
         <div>{priceWithDiscount}</div>
-        <div>{gift}</div>
         <div>{promotion}</div>
+        <div>{gift}</div>
       </section>
     </div>
   );
