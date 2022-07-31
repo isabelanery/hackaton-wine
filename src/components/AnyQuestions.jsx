@@ -14,7 +14,9 @@ function AnyQuestions() {
             Horário de atendimento:
             De segunda a sexta-feira de 09h as 18h. Exceto feriados.
           </p>
-          <button className="color-magenta" type="button">Clicando Aqui!</button>
+          <a href="https://www.wine.com.br/winebox-do-seu-jeito/teste-de-paladar/?fromsite#">
+            <button className="color-magenta" type="button">Clicando Aqui!</button>
+          </a>
         </div>
       </section>
     </div>
