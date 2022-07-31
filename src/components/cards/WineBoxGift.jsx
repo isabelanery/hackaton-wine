@@ -5,7 +5,7 @@ function WineBoxGift(props) {
   const { data: { img, title, description } } = props;
 
   return (
-    <div className="wine-box-gift">
+    <div className="wine-box-gift-container">
       <div className="wine-box-gift-img">
         <img src={img} alt={title} />
       </div>
