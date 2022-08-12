@@ -36,6 +36,7 @@ footer {
 }
 
 .social-icons * {
-  text-decoration: none;
+  color: var(--magenta);
   font-size: 1.75rem;
+  text-decoration: none;
 }

@@ -28,6 +28,7 @@ h1 {
 
 .wrapper h2 {
   background-color: var(--dark-transparency);
+  border-radius: 0.5rem;
   color: var(--cream);
   padding: 1rem;
 }
