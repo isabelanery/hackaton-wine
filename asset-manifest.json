@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hackaton-wine/static/css/main.ecdfc0f2.css",
+    "main.js": "/hackaton-wine/static/js/main.a82103fe.js",
+    "static/media/carousel1.png": "/hackaton-wine/static/media/carousel1.2393e4ee0809dbf2ef44.png",
+    "static/media/carousel2.png": "/hackaton-wine/static/media/carousel2.3338d23b4e9bac98cbb1.png",
+    "static/media/carousel3.png": "/hackaton-wine/static/media/carousel3.893989f653038c68c831.png",
+    "static/media/carousel4.png": "/hackaton-wine/static/media/carousel4.8bd49b01f62cd8eafc19.png",
+    "static/media/carousel5.png": "/hackaton-wine/static/media/carousel5.01808779717adb91cfe5.png",
+    "static/media/curadoria.svg": "/hackaton-wine/static/media/curadoria.916f5334bea62900bab22d1c0d41989e.svg",
+    "static/media/anyquestions.svg": "/hackaton-wine/static/media/anyquestions.63fef9364e73029b302284919e97652f.svg",
+    "static/media/escolhaoplano.svg": "/hackaton-wine/static/media/escolhaoplano.dbac6ef6db748d3124965c46b064c74c.svg",
+    "static/media/slick.svg": "/hackaton-wine/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hackaton-wine/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hackaton-wine/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hackaton-wine/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/hackaton-wine/index.html",
+    "main.ecdfc0f2.css.map": "/hackaton-wine/static/css/main.ecdfc0f2.css.map",
+    "main.a82103fe.js.map": "/hackaton-wine/static/js/main.a82103fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecdfc0f2.css",
+    "static/js/main.a82103fe.js"
+  ]
+}
