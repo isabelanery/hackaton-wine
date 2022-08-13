@@ -2,6 +2,7 @@
 
 ## About
 We had 26 hours to develop a landing page for [Wine](https://www.wine.com.br/) company, following two requirements: it should be different from their current landing page, and consume one of two APIs made available by Wine. 
+21 groups participated in the challenge, and our project took third place. Click [here](https://isabelanery.github.io/hackaton-wine/) to check it out!
 
 This was Wine's landing page at the time: 
 ![Wine's landing page](/src/images/wine-landing-page.gif)
